@@ -1,0 +1,40 @@
+.ant-modal-wrap.charge__futile__modal .ant-modal {
+  width: 500px !important;
+  height: auto;
+}
+.charge__futile__modal .ant-modal-title {
+  display: block;
+  text-align: center;
+}
+.charge__futile__modal .ant-modal-title img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.charge__futile__modal .ant-modal-footer {
+  border: none;
+  text-align: center;
+}
+.charge__futile__modal .ant-modal-body .btn__action .ant-btn {
+  width: 110px;
+}
+.charge__futile__modal .ant-modal-body .btn__action {
+  text-align: center;
+  display: block;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+.charge__futile__modal .ant-modal-body .btn__action .ant-btn:last-child{
+  color: white;
+  background: rgb(35, 157, 255);
+}
+.charge__futile__modal .ant-modal-content {
+  border-radius: 20px;
+}
+.charge__futile__modal .ant-modal-content .ant-modal-header {
+  border: none;
+  border-radius: 20px;
+}
+.charge__futile__modal .ant-modal-body {
+  padding: 0;
+}

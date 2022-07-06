@@ -1,0 +1,27 @@
+.manage-transaction-header-control {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.manage-transaction-header-title {
+  color: '#239dff';
+  margin: 10px 24px;
+  font-size: 20px;
+}
+
+.manage-transaction-header-button-group {
+  display: flex;
+  margin: 10px 24px;
+}
+
+.manage-transaction-header-control .innersearch-box {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 468px) {
+  .manage-transaction-header-control {
+    flex-direction: column;
+  }
+}

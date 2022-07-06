@@ -1,0 +1,7 @@
+.input__card-holder-name:placeholder{
+  color: #999
+}
+.input__card-holder-name:focus{
+  border: none;
+  box-shadow: none;
+}

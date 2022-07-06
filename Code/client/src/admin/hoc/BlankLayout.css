@@ -1,0 +1,21 @@
+/*!
+ * Blank layout for admin area
+ */
+.blank-layout .login_content form input[type=text],
+.blank-layout .login_content form input[type=email],
+.blank-layout .login_content form input[type=password] {
+  margin-bottom: 0px !important;
+  background-color: #2293EF;
+  border-width: 0px;
+  box-shadow: transparent;
+  color: #ffffff;
+}
+
+.login {
+  background-color: #239DFF;
+}
+
+.login_content {
+  text-shadow: transparent;
+  color: #ffffff;
+}

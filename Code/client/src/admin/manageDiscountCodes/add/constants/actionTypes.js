@@ -1,0 +1,1 @@
+export const ADD_DISCOUNT = 'ADM/DISCOUNT/ADD_DISCOUNT';

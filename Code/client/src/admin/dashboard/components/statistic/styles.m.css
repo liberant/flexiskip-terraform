@@ -1,0 +1,53 @@
+.container {
+  border: solid 1px #e2eaf0;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.header {
+  font-size: 14px;
+  padding: 10px 10px 0 10px;
+}
+
+.headerIcon {
+  font-size: 18px;
+  color: #239dff;
+  margin-right: 10px;
+}
+
+.content {
+  font-size: 40px;
+  color: #239dff;
+  padding: 10px 10px 15px 10px;
+}
+
+.footer {
+  font-size: 14px;
+  background-color: #f5fafe;
+  border-top: solid 1px #e2eaf0;
+  padding: 8px 10px;
+}
+
+.footerIcon, .footerIconText {
+  margin-right: 10px;
+}
+
+.footerText {
+  font-size: 12px;
+}
+
+.green {
+  color: #72c814;
+}
+
+.red {
+  color: #f06666;
+}
+
+.blue {
+  color: #239dff;
+}
+
+.orange {
+  color: #f6ba1a;
+}

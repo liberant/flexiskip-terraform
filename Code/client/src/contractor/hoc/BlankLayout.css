@@ -1,0 +1,65 @@
+/*!
+ * Blank layout for admin area
+ */
+.blank-layout .login_content form input[type=text],
+.blank-layout .login_content form input[type=email],
+.blank-layout .login_content form input[type=password] {
+  margin-bottom: 0px !important;
+  background-color: #2293EF;
+  border-width: 0px;
+  box-shadow: transparent;
+  color: #ffffff;
+}
+
+.login {
+  background-color: #239DFF;
+}
+
+.login_content {
+  text-shadow: transparent;
+  color: #ffffff;
+  min-width: 400px;
+  margin-right: 0px;
+  width: 800px;
+  margin-left: 10px;
+}
+
+.login_wrapper {
+  max-width: 1024px;
+}
+
+.register-header-logo {
+  display: inline-block;
+  position: absolute;
+}
+
+@media screen and (max-width: 400px) {
+  .register-header-logo {
+    left: 33%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .register-header-logo {
+    left: 36%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  .register-header-logo {
+    left: 42%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1299px) {
+  .register-header-logo {
+    left: 44%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .register-header-logo {
+    left: 46%;
+  }
+}
+
+
+

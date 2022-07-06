@@ -1,0 +1,20 @@
+extends ../../../email/template.pug
+block title
+  h1(style='font-family:arial; font-size:4em; font-weight:bold; color:#ffffff;')
+    | Account
+    br
+    | Created
+
+block content
+    br
+    br
+    br
+    | Congratulations! Your contractor account at handel has been successfully created. We're glad you're here.
+    br
+    br
+    br
+
+block button
+    .confirmbutton(style='font-size:1.2em; color:#ffffff; padding:25px 60px 30px 60px; background-color:#00afec; border-radius: 5px; line-height:1.2em; height:25px; width:200px; margin: 0px auto;')
+        - url = link
+        a(href=url, style='color:#ffffff; font-size:1em; line-height:1.5em; text-decoration:none;') Jump in and Get started

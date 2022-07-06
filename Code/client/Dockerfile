@@ -1,16 +1,7 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT-0
+FROM nginx:1.15.2-alpine
 
-# build stage
-FROM public.ecr.aws/bitnami/node:16 as build-stage
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
+# use nginx server to serve file index.html
+COPY build/index.html /usr/share/nginx/html
 
-# production stage
-FROM public.ecr.aws/nginx/nginx:latest as production-stage
-COPY --from=build-stage /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# update configuration for HTML5 push state
+COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf

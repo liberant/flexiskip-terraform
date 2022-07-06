@@ -1,0 +1,36 @@
+.title {
+  color: #1d415d;
+  font-size: 18px;
+}
+
+.time {
+  margin-bottom: 15px;
+}
+
+.content {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.buttons > * {
+  margin-left: 15px;
+}
+
+.btnRed {
+  box-shadow: 0 4px 8px 0 #f066664d;
+  border: none;
+  background-color: #fff;
+  color: #f06666;
+}
+
+.btnBlue {
+  box-shadow: 0 4px 8px 0 #007bff80;
+  border: none;
+  background-color: #fff;
+  color: #007bff;
+}

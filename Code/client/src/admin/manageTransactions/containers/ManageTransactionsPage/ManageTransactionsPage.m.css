@@ -1,0 +1,78 @@
+.filterSection {
+  display: flex;
+  height: 70px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 25px;
+
+  border-radius: 3px;
+  border: solid 1px #e2eaf0;
+
+  border-bottom: unset;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  background-color: #F6F5F6;
+}
+
+.filterSection > div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.filterSection > div:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.filterSection > div:nth-child(2),
+.filterSection > div:nth-child(3) {
+  background-color: #fff;
+}
+
+.orderTransactions {
+  border-top: unset;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tabGroup {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 0px;
+}
+
+.tabTransaction {
+  font-size: 14;
+  padding: 7px 10px;
+  border: 1px solid #DCE1E6;
+  color: #666;
+  background-color: #FFF;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: 220px;
+  text-align: center;
+}
+
+.tabSelected {
+  color: #FFF;
+  background-color: #239DFF;
+}
+
+.downloadButton {
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.downloadButtonText {
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.calendarControl > div > div {
+  line-height: 40px !important;
+}

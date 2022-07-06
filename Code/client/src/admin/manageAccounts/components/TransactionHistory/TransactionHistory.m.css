@@ -1,0 +1,28 @@
+.controlFilterButtons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.controlButton {
+  display: inline-block;
+  line-height: 26px;
+  font-size: 14x;
+  padding: 5px 10px;
+  border: 1px solid #DCE1E6;
+  color: #666666;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 220px;
+  text-align: center;
+}
+
+.controlActiveButton {
+  color: #FFFFFF;
+  background-color: #239DFF;
+  width: 220px;
+  text-align: center;
+}

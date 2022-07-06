@@ -1,0 +1,12 @@
+aws_profile = "handel"
+aws_region = "ap-southeast-2"
+environment_name = "dev"
+github_token = "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"
+port_app_server = 3000
+port_app_client = 80
+buildspec_path = "./Templates/buildspec.yml"
+folder_path_server = "./Code/server/."
+folder_path_client = "./Code/client/."
+repository_owner = "liberant"
+repository_name = "flexiskip-terraform"
+repository_branch = "dev"

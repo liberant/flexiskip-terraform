@@ -1,0 +1,16 @@
+.successedModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.successedModal-icon {
+  font-size: 64px;
+  color: #239dff;
+}
+
+.successedModal-message {
+  font-size: 20px;
+  color: #239dff;
+}

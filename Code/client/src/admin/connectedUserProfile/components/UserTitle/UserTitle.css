@@ -1,0 +1,9 @@
+.profile-user-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: rgb(29, 65, 93);
+}

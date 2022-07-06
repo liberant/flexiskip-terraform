@@ -1,18 +1,17 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT-0
+# Use an official Node runtime as a parent image
+FROM node:12.22.0-alpine
 
-FROM public.ecr.aws/bitnami/node:latest
+# Make port 3000 available to the world outside this container
+EXPOSE 3000
 
-RUN mkdir -p /home/node/app/node_modules
+# Set the working directory to /app
+WORKDIR /app
 
-WORKDIR /home/node/app
+# Copy the current directory contents into the container at /app
+ADD . /app
 
-COPY package*.json ./
+# Install dependencies
+RUN yarn
 
-RUN npm install
-
-COPY . .
-
-EXPOSE 3001
-
-CMD [ "npm", "start" ]
+# Launch the container
+CMD ["npm", "run", "start-prod"]

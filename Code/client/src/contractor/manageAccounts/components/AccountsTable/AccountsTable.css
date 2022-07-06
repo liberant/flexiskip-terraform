@@ -1,0 +1,22 @@
+.account-table-button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.account-table-button-group > * {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.account-table-button-group > *:last-child {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+/* @media only screen and (max-width: 468px) {
+  .account-table-button-group > *:last-child {
+    margin-left: 15px;
+  }
+} */

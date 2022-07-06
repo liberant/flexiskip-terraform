@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0 25px 0;
+}
+.stars i {
+  font-size: 40px;
+  cursor: pointer;
+}
+.stars i.fa-star{
+  color: yellow;
+}
+.btn-submit {
+  margin-top: 25px;
+}

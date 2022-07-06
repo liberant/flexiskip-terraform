@@ -1,0 +1,2 @@
+export const FETCH_DISPUTES = 'ADM/FETCH_DISPUTES';
+export const SET_STATE = 'ADM/SET_STATE';
